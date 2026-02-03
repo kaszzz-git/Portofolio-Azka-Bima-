@@ -1,0 +1,148 @@
+.card{
+    background-color:rgb(67, 133, 255);
+    text-align: center;
+    width: 300px;
+    height: 550px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+.card:hover{
+    background-color: blue;
+    box-shadow: 10px 5px rgba(0, 0, 0, 0.603);
+}
+img{
+    width: 250px;
+    border-radius: 10px;
+    margin: 20px;
+}
+img:hover{
+    width: 150px;
+    transition: 0.4s;
+}
+    h1{color: whitesmoke;}
+    h1:hover{
+        color:bisque
+    }
+    .Job{color: yellow;}
+    h3{color: orange;}
+    p{color: red;}
+    p:hover{
+        color: azure;
+    }
+    button{
+        width: 200px;
+        height: 40px;
+        background-color: salmon;
+        color: yellow;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+        margin: 20px 10px;
+    }
+    button:hover{
+        background-color: rgb(255, 0, 0);
+        cursor: pointer;
+        transition: 0.8s;
+    }
+    body{
+        margin: 0;
+        background-color: beige;
+    }
+    nav{
+        background-color: aqua;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo{
+        color: black;
+        margin: 20px;
+    }
+    .menu ul{
+        display: flex;
+        gap: 20px;
+    }
+    .menu ul li{
+        list-style: none;
+    }
+    .menu ul li a{
+        text-decoration: none;
+        color: black;
+        margin: 10px;
+    }
+    .menu ul li a:hover{
+        color: wheat;
+        transition: 0.5s;
+    }
+    .btn-wa{
+        background-color: green;
+        padding: 10px 20px;
+        border-radius: 20px;
+        margin-right: 20px;
+    }
+    .btn-wa:hover{
+        background-color: cadetblue;
+
+    }
+
+    .logo img{
+        width: 50px;
+        
+    }
+
+    /* Ini bagian HERO  */
+    .hero{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-left{
+        max-width: 70%;
+
+    }
+
+    .hero-left h1{
+        font-size: 48px;
+        color: black;
+    }
+    .hero-left p{
+        color: gray;
+        font-size: 20px;
+    }
+    .hero-right img{
+        width: 250  px;
+        border-radius: 20px;
+        box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.726);
+    }
+
+    /* Dibawah ini styling contact */
+
+    .Contact{
+        padding: 80px;
+        background-color: darkkhaki;
+    }
+
+    .Contact-container{
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .Contact-info{
+        max-width: 400px;
+    }
+
+    .Contact h2{
+        text-align: center;
+    }
+
+    .Contact-info p{
+        margin-bottom: 25px;
+        color: black;
+    }
+
+    .Contact-map iframe{
+        border-radius: 20px;
+    }
